@@ -2,11 +2,11 @@
 
 ### A Cognitive Mirror for Rebalancing Your Digital Footprint
 
-🌐 **Live Demo**: (https://carbonshadow.netlify.app](https://carbonshadow.netlify.app)
+🌐 **[Live Demo](https://carbonshadow.netlify.app)** 
 
-📂 **Source Code**: (https://github.com/Soumalya-De/carbon-shadow)
+📂 **[Source Code](https://github.com/Soumalya-De/carbon-shadow)**  
 
-🎥 **Demo Video**: (https://youtu.be/your-demo-video](https://youtu.be/your-demo-video)
+🎥 **[Demo Video](https://youtu.be/your-demo-video)**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://www.netlify.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
