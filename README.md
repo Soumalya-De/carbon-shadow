@@ -6,7 +6,6 @@
 
 📂 **[Source Code](https://github.com/Soumalya-De/carbon-shadow)**  
 
-🎥 **[Demo Video](https://youtu.be/your-demo-video)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
