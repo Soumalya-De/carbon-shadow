@@ -4,7 +4,7 @@
 
 🌐 **Live Demo**: [https://carbonshadow.netlify.app](https://carbonshadow.netlify.app)
 
-📂 **Source Code**: [https://github.com/yourusername/carbon-shadow](https://github.com/yourusername/carbon-shadow)
+📂 **Source Code**: [https://github.com/Soumalya-De/carbon-shadow)
 
 🎥 **Demo Video**: [https://youtu.be/your-demo-video](https://youtu.be/your-demo-video)
 
