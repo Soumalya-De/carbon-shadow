@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Outfit:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #020008;
+  color: #ffffff;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global text rendering for crisp thin fonts */
+* {
+  text-rendering: optimizeLegibility;
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background: rgba(13, 8, 28, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-neon-cyan {
+  background: rgba(13, 8, 28, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 240, 255, 0.25);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.08);
+}
+
+.glass-panel-neon-violet {
+  background: rgba(13, 8, 28, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(157, 78, 221, 0.25);
+  box-shadow: 0 0 20px rgba(157, 78, 221, 0.08);
+}
+
+.glass-panel-neon-emerald {
+  background: rgba(13, 8, 28, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 245, 212, 0.25);
+  box-shadow: 0 0 20px rgba(0, 245, 212, 0.08);
+}
+
+/* Glowing text helpers */
+.glow-text-cyan {
+  text-shadow: 0 0 6px rgba(0, 240, 255, 0.45);
+}
+
+.glow-text-violet {
+  text-shadow: 0 0 6px rgba(157, 78, 221, 0.45);
+}
+
+.glow-text-emerald {
+  text-shadow: 0 0 6px rgba(0, 245, 212, 0.45);
+}
+
+/* Hide scrollbars globally for cinematic navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom scroll snap items */
+.scene-snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100%;
+}
+
+.scene-snap-item {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* Slider styling */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #00f0ff;
+  box-shadow: 0 0 6px rgba(0, 240, 255, 0.6);
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  background: #00f0ff;
+  box-shadow: 0 0 6px rgba(0, 240, 255, 0.6);
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
